@@ -1,0 +1,1666 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 59px 0px 59px;
+  background-color: var(--dark-background-color);
+  gap: 40px;
+  overflow-x: hidden;
+}
+
+/************************************************ Navbar ***********************************************/
+.navbar-style {
+  position: relative;
+  width: 1322px;
+  height: 91px;
+  gap: 324px;
+}
+
+.navbar-style .navbar-brand {
+  position: absolute;
+  width: 187px;
+  height: 58px;
+  top: 17px;
+  left: 136px;
+}
+
+.navbar-style .text-wrapper {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  font-family: var(--h-3-font-family);
+  font-weight: var(--h-3-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--h-3-font-size);
+  letter-spacing: var(--h-3-letter-spacing);
+  line-height: var(--h-3-line-height);
+  white-space: nowrap;
+  font-style: var(--h-3-font-style);
+}
+
+.navbar-style .navbar-toggler {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  top: 39px;
+  left: 1298px;
+}
+
+.navbar-style .collapse-navbar {
+  position: absolute;
+  width: 815px;
+  height: 58px;
+  top: 16px;
+  left: 364px;
+}
+
+.navbar-style .navbar-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 21px;
+  position: absolute;
+  top: 17px;
+  left: 0;
+}
+
+.navbar-style .li {
+  position: relative;
+  width: 43px;
+  height: 24px;
+}
+
+.navbar-style .a {
+  position: relative;
+  height: 24px;
+}
+
+.navbar-style .link {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: var(--link-font-family);
+  font-weight: var(--link-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--link-font-size);
+  text-align: center;
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+  white-space: nowrap;
+  font-style: var(--link-font-style);
+}
+
+.navbar-style .a-wrapper {
+  width: 59px;
+  position: relative;
+  height: 24px;
+}
+
+.navbar-style .div-wrapper {
+  width: 52px;
+  position: relative;
+  height: 24px;
+}
+
+.navbar-style .div {
+  width: 58px;
+  position: relative;
+  height: 24px;
+}
+
+.navbar-style .navbar-nav-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 45px;
+  position: absolute;
+  top: 3px;
+  left: 515px;
+}
+
+.navbar-style .nav-item {
+  position: relative;
+  width: 41px;
+  height: 22px;
+}
+
+.navbar-style .btn-text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  height: 22px;
+}
+
+.navbar-style .btn-text {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: var(--btn-text-font-family);
+  font-weight: var(--btn-text-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--btn-text-font-size);
+  text-align: right;
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  white-space: nowrap;
+  font-style: var(--btn-text-font-style);
+}
+
+.navbar-style .button-btn-primary-wrapper {
+  position: relative;
+  width: 214px;
+  height: 52px;
+}
+
+.navbar-style .button-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  position: relative;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.navbar-style .btn-text-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--btn-text-font-family);
+  font-weight: var(--btn-text-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--btn-text-font-size);
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  white-space: nowrap;
+  font-style: var(--btn-text-font-style);
+}
+
+.navbar-style .icn-arrow-right-icn {
+  position: relative;
+  width: 12px;
+  height: 10px;
+}
+
+/*******************************************************************************************************/
+
+/***************************************** Body Till Three Cards *************************************/
+.container {
+  display: flex;
+  flex-direction: column;
+  width: Fixed (1, 046px);
+  height: (1, 028px);
+  align-items: center;
+  gap: 80px;
+  padding: 80px 0px;
+  position: relative;
+  margin: 0px 197px;
+}
+
+
+.container .row {
+  display: flex;
+  flex-direction: column;
+  width: 701px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container .main-content {
+  display: flex;
+  flex-direction: column;
+  width: 699px;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container .header-tag {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-5-font-family);
+  font-weight: var(--h-5-font-weight);
+  color: var(--primary-color);
+  font-size: var(--h-5-font-size);
+  letter-spacing: var(--h-5-letter-spacing);
+  line-height: var(--h-5-line-height);
+  white-space: nowrap;
+  font-style: var(--h-5-font-style);
+}
+
+.container .header-tag {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-5-font-family);
+  font-weight: var(--h-5-font-weight);
+  color: var(--primary-color);
+  font-size: var(--h-5-font-size);
+  letter-spacing: var(--h-5-letter-spacing);
+  line-height: var(--h-5-line-height);
+  white-space: nowrap;
+  font-style: var(--h-5-font-style);
+}
+
+.container .headline {
+  position: relative;
+  width: 542px;
+  height: 160px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--light-text-color);
+  font-size: 58px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+}
+
+.container .sub-headline {
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--light-text-color);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.container .cta {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container .button-md {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container .btn-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--btn-text-font-family);
+  font-weight: var(--btn-text-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--btn-text-font-size);
+  text-align: center;
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  white-space: nowrap;
+  font-style: var(--btn-text-font-style);
+}
+
+.container .btn-text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-family: var(--btn-text-font-family);
+  font-weight: var(--btn-text-font-weight);
+  font-size: var(--btn-text-font-size);
+  font-style: var(--btn-text-font-style);
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  margin-top: -1px;
+}
+
+.container .div {
+  display: inline-flex;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container .col-md {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.container .card {
+  background-color: var(--light-background-color);
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  box-shadow: var(--accentued-drop-shadow);
+}
+
+.container .card-2 {
+  width: Fixed (328px);
+  height: Hug (292px);
+  padding: 35px, 40px, 35px, 40px;
+  gap: 20px;
+}
+
+.container .img-wrapper {
+  width: Hug (70px);
+  height: Hug (76px);
+  padding: 22px, 19px, 22px, 19px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.container .fixed-width {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container .feature-title {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h-5-font-family);
+  font-weight: var(--h-5-font-weight);
+  color: var(--text-color);
+  font-size: var(--h-5-font-size);
+  letter-spacing: var(--h-5-letter-spacing);
+  line-height: var(--h-5-line-height);
+  white-space: nowrap;
+  font-style: var(--h-5-font-style);
+}
+
+.container .fixed-width-fixed {
+  position: relative;
+  width: 50px;
+  height: 2px;
+  background-color: var(--danger-color);
+}
+
+.container .paragraph-feature {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.container .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 329px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.container .card-2 {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  box-shadow: var(--accentued-drop-shadow);
+}
+
+.container .h-feature-title {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h-5-font-family);
+  font-weight: var(--h-5-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--h-5-font-size);
+  letter-spacing: var(--h-5-letter-spacing);
+  line-height: var(--h-5-line-height);
+  white-space: nowrap;
+  font-style: var(--h-5-font-style);
+}
+
+.container .fixed-width-fixed-2 {
+  position: relative;
+  width: 50px;
+  height: 2px;
+  background-color: var(--light-background-color);
+}
+
+.container .p {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+/********************************************************************************************************/
+
+/******************************** Third White Body With 6 Relative Pictures ***************************/
+
+.container2-main {
+  margin-bottom: 0;
+  height: 715px;
+  padding: 0px 197px;
+  gap: 40px;
+  background: #FFFFFF;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+  align-items: center;
+  padding: 160px 0px;
+  position: relative;
+}
+
+.container2 .row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.container2 .col-md {
+  flex-direction: column;
+  width: 507px;
+  gap: 35px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.container2 .fixed-width-fixed {
+  position: relative;
+  width: 94px;
+  height: 7px;
+  background-color: var(--danger-color);
+}
+
+.container2 .section-title {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h-2-font-family);
+  font-weight: var(--h-2-font-weight);
+  color: var(--text-color);
+  font-size: var(--h-2-font-size);
+  letter-spacing: var(--h-2-letter-spacing);
+  line-height: var(--h-2-line-height);
+  font-style: var(--h-2-font-style);
+}
+
+.container2 .paragraph {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.container2 .a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container2 .h {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--link-font-family);
+  font-weight: var(--link-font-weight);
+  color: var(--primary-text-color);
+  font-size: var(--link-font-size);
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+  white-space: nowrap;
+  font-style: var(--link-font-style);
+}
+
+.container2 .icon-arrow-next {
+  position: relative;
+  width: 9px;
+  height: 16px;
+}
+
+.container2 .thumb-concept-wrapper {
+  width: 513px;
+  gap: 30px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.container2 .thumb-concept {
+  position: relative;
+  width: 513px;
+  height: 395px;
+}
+
+.container2 .overlap-group {
+  position: absolute;
+  width: 458px;
+  height: 395px;
+  top: 0;
+  left: 0;
+}
+
+.container2 .rectangle {
+  position: absolute;
+  width: 333px;
+  height: 343px;
+  top: 0;
+  left: 125px;
+  object-fit: cover;
+}
+
+.container2 .img {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 0;
+  left: 52px;
+}
+
+.container2 .image {
+  width: 158px;
+  height: 158px;
+  top: 14px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.container2 .image-2 {
+  width: 362px;
+  height: 110px;
+  top: 285px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.container2 .rectangle-2 {
+  position: absolute;
+  width: 34px;
+  height: 58px;
+  top: 285px;
+  left: 465px;
+}
+
+/********************************************************************************************************/
+
+/******************************************* Fourth White Body 4 Cards ********************************/
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background: #FFFFFF;
+  width: 100vw;
+  gap: 112px;
+  padding: 112px 0px;
+  position: relative;
+  bottom: 40px;
+}
+
+.container3 .row {
+  display: flex;
+  flex-direction: column;
+  width: 1044px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .main-content {
+  display: flex;
+  flex-direction: column;
+  width: 691px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .section-tag {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: var(--primary-text-color);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.container3 .section-title {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h-2-font-family);
+  font-weight: var(--h-2-font-weight);
+  color: var(--text-color);
+  font-size: var(--h-2-font-size);
+  letter-spacing: var(--h-2-letter-spacing);
+  line-height: var(--h-2-line-height);
+  white-space: nowrap;
+  font-style: var(--h-2-font-style);
+}
+
+.container3 .paragraph {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.container3 .div {
+  display: inline-flex;
+  gap: 30px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .col-md {
+  width: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.container3 .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--light-background-color);
+  overflow: hidden;
+}
+
+.container3 .fixed-height {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 300px;
+  background-image: url(./Fourth-WB-4-Cards-Src/product-cover-66.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container3 .Main-Icon-Favorite {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.container3 .Like {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background: white;
+  border-radius: 44.79px;
+  overflow: hidden;
+}
+
+.container3 .IcnFavorite {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.container3 .Vector {
+  width: 20px;
+  height: 20px;
+}
+
+.container3 .product-actions {
+  left: 49px;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  top: 236px;
+}
+
+.container3 .tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: var(--danger-color);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: var(--light-drop-shadow);
+}
+
+.container3 .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--h-6-font-size);
+  text-align: center;
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.container3 .frame {
+  margin-right: -11px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.container3 .div-2 {
+  gap: 10px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .link-product {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--link-font-family);
+  font-weight: var(--link-font-weight);
+  color: var(--primary-text-color);
+  font-size: var(--link-font-size);
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+  white-space: nowrap;
+  font-style: var(--link-font-style);
+}
+
+.container3 .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--dark-background-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container3 .img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.container3 .small {
+  color: var(--light-text-color);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--small-font-family);
+  font-weight: var(--small-font-weight);
+  font-size: var(--small-font-size);
+  letter-spacing: var(--small-letter-spacing);
+  line-height: var(--small-line-height);
+  white-space: nowrap;
+  font-style: var(--small-font-style);
+}
+
+.container3 .product-title {
+  position: relative;
+  width: 131px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+
+.container3 .paragraph-product {
+  position: relative;
+  width: 182px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--second-text-color);
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
+.container3 .h {
+  color: var(--second-text-color);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.container3 .prices {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .price {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--muted-color);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.container3 .h-price {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--secondary-color-1);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.container3 .frame-4 {
+  display: flex;
+  height: 46px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.container3 .frame-5 {
+  gap: 5px;
+  transform: rotate(180deg);
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .img-2 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-180deg);
+}
+
+.container3 .small-2 {
+  color: var(--second-text-color);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--small-font-family);
+  font-weight: var(--small-font-weight);
+  font-size: var(--small-font-size);
+  letter-spacing: var(--small-letter-spacing);
+  line-height: var(--small-line-height);
+  white-space: nowrap;
+  font-style: var(--small-font-style);
+}
+
+.container3 .button-sm {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 37px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--primary-color);
+}
+
+.container3 .h-2 {
+  color: var(--primary-color);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.container3 .icn-arrow-right-icn {
+  position: relative;
+  width: 9.14px;
+  height: 16px;
+}
+
+.container3 .product-card-wrapper {
+  width: 241px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.container3 .fixed-height-2 {
+  background-image: url(./Fourth-WB-4-Cards-Src/product-cover-65.png);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.container3 .product-actions-2 {
+  left: 51px;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  top: 236px;
+}
+
+.container3 .frame-6 {
+  margin-right: -8px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container3 .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  align-items: center;
+  position: relative;
+}
+
+.container3 .fixed-height-3 {
+  background-image: url(./Fourth-WB-4-Cards-Src/product-cover-63.png);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.container3 .product-actions-3 {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  top: 236px;
+  left: 50px;
+}
+
+.container3 .frame-7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -9px;
+}
+
+.container3 .fixed-height-4 {
+  background-image: url(./Fourth-WB-4-Cards-Src/product-cover-64.png);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/********************************************************************************************************/
+
+/************************************* Fifth Part Expert Teacher **************************************/
+
+.container4 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  gap: 96px;
+  padding: 160px 0px;
+  position: relative;
+  bottom: 80px;
+}
+
+.container4 .row {
+  display: flex;
+  flex-direction: column;
+  width: 1044px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container4 .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  width: 619px;
+  gap: 10px;
+}
+
+.container4 .section-tag {
+  position: relative;
+  width: fit-content;
+  white-space: nowrap;
+  margin-top: -1px;
+  color: var(--primary-text-color);
+  font-family: var(--h-6-font-family);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  font-style: var(--h-6-font-style);
+  font-weight: var(--h-6-font-weight);
+}
+
+.container4 .section-title {
+  white-space: nowrap;
+  position: relative;
+  width: fit-content;
+  color: var(--text-color);
+  font-family: var(--h-2-font-family);
+  font-weight: var(--h-2-font-weight);
+  font-size: var(--h-2-font-size);
+  letter-spacing: var(--h-2-letter-spacing);
+  line-height: var(--h-2-line-height);
+  font-style: var(--h-2-font-style);
+}
+
+.container4 .paragraph {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.container4 .div {
+  display: inline-flex;
+  gap: 30px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container4 .col-md {
+  display: flex;
+  flex-direction: column;
+  width: 508px;
+  align-items: center;
+  position: relative;
+}
+
+.container4 .testimonials-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--light-background-color);
+  overflow: hidden;
+}
+
+.container4 .circle {
+  background-image: url(Fifth-Expert-Teacher-Part/testimonial-user-cover-23.png);
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border-radius: 200px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.container4 .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.container4 .con-star {
+  display: flex;
+}
+
+.container4 .stars {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container4 .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 25px;
+  position: relative;
+  flex: 0 0 aauto;
+}
+
+.container4 .user-title {
+  position: relative;
+  width: fit-content;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: -1px;
+  font-family: var(--h-5-font-family);
+  font-weight: var(--h-5-font-weight);
+  color: var(--text-color);
+  font-size: var(--h-5-font-size);
+  letter-spacing: var(--h-5-letter-spacing);
+  line-height: var(--h-5-line-height);
+  font-style: var(--h-5-font-style);
+}
+
+.container4 .h {
+  position: relative;
+  width: fit-content;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--second-text-color);
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  font-style: var(--h-6-font-style);
+}
+
+.container4 .testimonials-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 512px;
+  align-items: center;
+  position: relative;
+}
+
+.container4 .circle2 {
+  background-image: url(Fifth-Expert-Teacher-Part/testimonial-user-cover-24.png);
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border-radius: 200px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.container4 .p {
+  width: 311px;
+  margin-top: -1px;
+  text-align: center;
+  position: relative;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+/********************************************************************************************************/
+
+/********************************************* Above Footer *******************************************/
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 480px;
+  gap: 80px;
+  padding: 160px 0px;
+  background: #FFFFFF;
+  position: relative;
+  bottom: 210px;
+}
+
+.container5 .row {
+  flex-direction: column;
+  width: 692px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container5 .main-content {
+  display: flex;
+  flex-direction: column;
+  width: 691px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container5 .section-tag {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: var(--primary-text-color);
+  font-size: var(--h-6-font-size);
+  text-align: center;
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.container5 .section-title {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h-2-font-family);
+  font-weight: var(--h-2-font-weight);
+  color: var(--text-color);
+  font-size: var(--h-2-font-size);
+  text-align: center;
+  letter-spacing: var(--h-2-letter-spacing);
+  line-height: var(--h-2-line-height);
+  white-space: nowrap;
+  font-style: var(--h-2-font-style);
+}
+
+.container5 .paragraph {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--paragraph-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.container5 .col-md-wrapper {
+  width: 688px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container5 .col-md {
+  display: flex;
+  flex-direction: column;
+  width: 688px;
+  align-items: center;
+  position: relative;
+}
+
+.container5 .subscribe {
+  position: relative;
+  width: 688px;
+  height: 363px;
+}
+
+.container5 .input-group {
+  height: 58px;
+}
+
+.container5 .overlap-group {
+  position: relative;
+  width: 688px;
+  height: 58px;
+  border-radius: 5px;
+}
+
+.container5 .form-control-input {
+  position: absolute;
+  width: 688px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #e6e6e6;
+  padding-left: 10px;
+}
+
+.container5 .btn {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: 117px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--light-text-color);
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  white-space: nowrap;
+  height: 58px;
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 0px 5px 5px 0px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #e6e6e6;
+  float: right;
+}
+
+/********************************************** Footer **************************************************/
+
+.container6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 0px;
+  position: relative;
+  bottom: 100px;
+}
+
+.container6 .row {
+  display: flex;
+  width: 1046px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container6 .col-md {
+  display: flex;
+  flex-direction: column;
+  width: 238px;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+}
+
+.container6 .h {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-3-font-family);
+  font-weight: var(--h-3-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--h-3-font-size);
+  letter-spacing: var(--h-3-letter-spacing);
+  line-height: var(--h-3-line-height);
+  white-space: nowrap;
+  font-style: var(--h-3-font-style);
+}
+
+.container6 .paragraph {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.container6 .social-media {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container6 .div {
+  display: flex;
+  width: 241px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.container6 .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container6 .link {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: var(--link-font-family);
+  font-weight: var(--link-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--link-font-size);
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+  white-space: nowrap;
+  font-style: var(--link-font-style);
+}
+
+.container6 .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: var(--link-font-family);
+  font-weight: var(--link-font-weight);
+  color: var(--light-text-color);
+  font-size: var(--link-font-size);
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+  white-space: nowrap;
+  font-style: var(--link-font-style);
+}
+
+.container6 .col-md-2 {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.container6 .col-md-3 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.Footer-Link-Imgs {
+  display: flex;
+  gap: 15px;
+}
+
+/*******************************************************************************************************/
+
+.container7 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  padding: 25px 0px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.container7 .row {
+  display: inline-flex;
+  align-items: center;
+  gap: 213px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container7 .col-md {
+  display: flex;
+  flex-direction: column;
+  width: 513px;
+  align-items: center;
+  position: relative;
+}
+
+.container7 .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: var(--second-text-color);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+@media only screen and (max-width: 600px) {
+  
+}  
